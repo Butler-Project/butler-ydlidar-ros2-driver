@@ -1,0 +1,12 @@
+tmini_driver_node:
+  ros__parameters:
+    port: /dev/lidar
+    frame_id: lidar
+    baud_rate: 230400
+    angle_min: -3.14159265
+    angle_max: 3.14159265
+    range_min: 0.03
+    range_max: 12.0
+    invalid_range_is_inf: false
+    enable_motor_pid: false
+    target_scan_freq_hz: 10.0
